@@ -10,80 +10,24 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Window7.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Window7 : Window
     {
-        public MainWindow()
+        public Window7()
         {
             InitializeComponent();
         }
 
-        private void button8_Click(object sender, RoutedEventArgs e)
-        {
-            var Window1 = new Window1(); //create your new form.
-            Window1.Show(); //show the new form.
-            this.Close();
-        }
-
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-            var Window2 = new Window2(); //create your new form.
-            Window2.Show(); //show the new form.
-            this.Close();
-        }
-
-        private void button3_Click(object sender, RoutedEventArgs e)
-        {
-            var Window3 = new Window3(); //create your new form.
-            Window3.Show(); //show the new form.
-            this.Close();
-        }
-
-        private void button4_Click(object sender, RoutedEventArgs e)
-        {
-            var Window4 = new Window4(); //create your new form.
-            Window4.Show(); //show the new form.
-            this.Close();
-        }
-
-        private void button5_Click(object sender, RoutedEventArgs e)
-        {
-            var Window5 = new Window5(); //create your new form.
-            Window5.Show(); //show the new form.
-            this.Close();
-        }
-        private void button6_Click(object sender, RoutedEventArgs e)
-        {
-            var Window5 = new Window5(); //create your new form.
-            Window5.Show(); //show the new form.
-            this.Close();
-        }
-
-        private void button7_Click(object sender, RoutedEventArgs e)
-        {
-            var Window6 = new Window6(); //create your new form.
-            Window6.Show(); //show the new form.
-            this.Close();
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            var Window7 = new Window7(); //create your new form.
-            Window7.Show(); //show the new form.
-            this.Close();
-        }
-
         private void one_Click(object sender, RoutedEventArgs e)
         {
-            var Window7 = new Window7(); //create your new form.
-            Window7.Show(); //show the new form.
+            var MainWindow = new MainWindow(); //create your new form.
+            MainWindow.Show(); //show the new form.
             this.Close();
         }
 

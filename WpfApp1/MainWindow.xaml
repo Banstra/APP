@@ -5,35 +5,84 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#FFCF4D4F">
-        <Image x:Name="_2023_01_20_11_35_57_png" Margin="270,0,189,314" Source="2023-01-20_11-35-57.png" Stretch="Fill"/>
-        <Button x:Name="button" Content="НАВИГАЦИЯ" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Height="400" Background="#FF380A0A" Foreground="White"/>
-        <Image x:Name="gps_navigation_pin_search_find_location_locate_icon_icons_com_59900_png" Margin="142,110,546,205" Source="gps_navigation_pin_search_find_location_locate_icon-icons.com_59900.png" Stretch="Fill" OpacityMask="Black"/>
-        <Image x:Name="ppe_mask_medical_health_icon_208484_png" Margin="291,112,384,190" Source="ppe_mask_medical_health_icon_208484.png" Stretch="Fill"/>
-        <Image x:Name="searchmagnifierinterfacesymbol1_79893_png" Margin="450,112,235,200" Source="searchmagnifierinterfacesymbol1_79893.png" Stretch="Fill"/>
-        <Image x:Name="_3792021_halloween_horror_skeleton_skull_109032_png" Margin="599,110,80,196" Source="3792021-halloween-horror-skeleton-skull_109032.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
-            <Image.OpacityMask>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="White" Offset="0.823"/>
-                </LinearGradientBrush>
-            </Image.OpacityMask>
-        </Image>
-        <Image x:Name="filter_tool_black_shape_icon_icons_com_73566_png" Margin="600,271,78,34" Source="filter-tool-black-shape_icon-icons.com_73566.png" Stretch="Fill"/>
-        <Image x:Name="color_pallet_icon_125322_png" Margin="454,261,217,37" Source="color_pallet_icon_125322.png" Stretch="Fill"/>
-        <Image x:Name="_4124869_badge_insignia_premium_badge_quality_star_badge_114113_png" Margin="296,259,372,36" Source="4124869-badge-insignia-premium-badge-quality-star-badge_114113.png" Stretch="Fill"/>
-        <Image x:Name="barcode_scanner_4249_png" Margin="130,263,539,33" Source="barcode_scanner_4249.png" Stretch="Fill"/>
-        <Label x:Name="label" Content="НАВИГАЦИЯ" HorizontalAlignment="Left" Margin="151,225,0,0" VerticalAlignment="Top" Width="200" Height="100" FontSize="15"/>
-        <Label x:Name="label_Copy" Content="СИЗ" HorizontalAlignment="Left" Margin="334,222,0,0" VerticalAlignment="Top" Width="200" Height="100" FontSize="15"/>
-        <Label x:Name="label_Copy1" Content="ПОИСК ДЕТАЛЕЙ" HorizontalAlignment="Left" Margin="450,224,0,0" VerticalAlignment="Top" Width="200" Height="100" FontSize="15"/>
-        <Label x:Name="label_Copy2" Content="ОПАСНЫЕ ЗОНЫ" HorizontalAlignment="Left" Margin="609,227,0,0" VerticalAlignment="Top" Width="200" Height="100" FontSize="15"/>
-        <Label x:Name="label_Copy3" Content="СОРТИРОВКА ПО РАЗМЕРУ" HorizontalAlignment="Left" Margin="577,391,0,-72" VerticalAlignment="Top" Width="200" Height="100" FontSize="13"/>
-        <Label x:Name="label_Copy4" Content="ЦВЕТОВАЯ ПАЛИТРА" HorizontalAlignment="Left" Margin="439,391,0,-72" VerticalAlignment="Top" Width="200" Height="100" FontSize="13"/>
-        <Label x:Name="label_Copy5" Content="КОНТРОЛЬ КАЧЕСТВА" HorizontalAlignment="Left" Margin="286,390,0,-71" VerticalAlignment="Top" Width="200" Height="100" FontSize="13"/>
-        <Label x:Name="label_Copy6" Content="СБОРКА ПО ШТРИХ-КОДУ" HorizontalAlignment="Left" Margin="109,391,0,-72" VerticalAlignment="Top" Width="200" Height="100" FontSize="13"/>
-        
+        Title="MainWindow" Height="450" Width="800" Background="White">
+    <Grid Background="#f5dfbb">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="99*">
 
+            </RowDefinition>
+            <RowDefinition Height="130*"></RowDefinition>
+            <RowDefinition Height="23*"></RowDefinition>
+            <RowDefinition Height="Auto" MinHeight="167"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="83*"></ColumnDefinition>
+            <ColumnDefinition Width="149*"></ColumnDefinition>
+            <ColumnDefinition Width="149*"></ColumnDefinition>
+            <ColumnDefinition Width="149*"></ColumnDefinition>
+            <ColumnDefinition Width="149*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="logo" Content="KAIROS" Foreground="White" Grid.ColumnSpan="4" Grid.Column="1" Margin="10,10,10,9" >
+            <Button.Background>
+                <ImageBrush ImageSource="2023-01-20_11-15-57.png" Stretch="Uniform" TileMode="Tile"/>
+            </Button.Background>
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="2023-01-20_11-15-57.png"/>
+            </Button.OpacityMask>
+        </Button>
+        <Border x:Name="button" HorizontalAlignment="Left" Margin="10,10,0,9" Width="75" Background="#f5dfbb"  Grid.Column ="0" Grid.RowSpan="4">
+            <StackPanel>
+                <Button x:Name="one" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="навигация" Foreground="White" Click="one_Click"></Button>
+                <Button x:Name="two" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="СИЗ" Foreground="White" Click="two_Click"></Button>
+                <Button x:Name="three" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="поиск деталей" Foreground="White" Click="three_Click"></Button>
+                <Button x:Name="four" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="опасности" Foreground="White" Click="four_Click"></Button>
+                <Button x:Name="five" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="сортировка" Foreground="White" Click="five_Click"></Button>
+                <Button x:Name="six" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="фильтрация" Foreground="White" Click="six_Click"></Button>
+                <Button x:Name="seven" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="контроль" Foreground="White" Click="seven_Click"></Button>
+                <Button x:Name="eight" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="инструкция" Foreground="White" Click="eight_Click"></Button>
+            </StackPanel>
 
+        </Border>
+        <Button x:Name="button1"  Grid.Column="1" Grid.Row="1" Background="#f2542d" Margin="10,10,10,9" Click="button1_Click" >
+
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="gps_navigation_pin_search_find_location_locate_icon-icons.com_59900.png" Stretch="Uniform"/>
+            </Button.OpacityMask>
+        </Button>
+        <Button x:Name="button2"  Grid.Column="2" Grid.Row="1" Margin="10,10,10,9" Click="button2_Click" Foreground="#FFF2542D" Background="#FFF2542D" >
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="ppe_mask_medical_health_icon_208484.png" Stretch="UniformToFill"/>
+            </Button.OpacityMask>
+        </Button>
+        <Button x:Name="button3" Grid.Column="3" Grid.Row="1" Background="#f2542d" Margin="10,10,10,9" Click="button3_Click">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="searchmagnifierinterfacesymbol1_79893.png" Stretch="Uniform"/>
+            </Button.OpacityMask>
+        </Button>
+        <Button x:Name="button4" Grid.Column="4" Grid.Row="1" Background="#f2542d" Margin="10,10,10,9" Click="button4_Click">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="3792021-halloween-horror-skeleton-skull_109032.png" Stretch="Uniform"/>
+            </Button.OpacityMask>
+        </Button>
+        <Button x:Name="button5" Grid.Column="4" Grid.Row="3" Background="#f2542d" Margin="10,10,10,9" Click="button5_Click">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="filter-tool-black-shape_icon-icons.com_73566.png"/>
+            </Button.OpacityMask>
+        </Button>
+        <Button x:Name="button6"  Grid.Column="3" Grid.Row="3" Background="#f2542d" Margin="10,10,10,9" Click="button6_Click">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="color_pallet_icon_125322.png"/>
+            </Button.OpacityMask>
+        </Button>
+        <Button x:Name="button7"  Grid.Column="2" Grid.Row="3" Background="#f2542d" Margin="10,10,10,9" Click="button7_Click">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="4124869-badge-insignia-premium-badge-quality-star-badge_114113.png"/>
+            </Button.OpacityMask>
+        </Button>
+        <Button x:Name="button8" Grid.Column="1" Grid.Row="3" Background="#f2542d" Margin="10,10,10,9" Click="button8_Click">
+            <Button.OpacityMask>
+                <ImageBrush ImageSource="barcode_scanner_4249.png" Stretch="Uniform"/>
+            </Button.OpacityMask>
+        </Button>
     </Grid>
 </Window>

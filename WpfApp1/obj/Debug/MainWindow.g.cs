@@ -49,7 +49,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 33 "..\..\MainWindow.xaml"
+        #line 26 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Border button;
         
@@ -57,7 +57,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 35 "..\..\MainWindow.xaml"
+        #line 28 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button one;
         
@@ -65,7 +65,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 36 "..\..\MainWindow.xaml"
+        #line 29 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button two;
         
@@ -73,7 +73,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 37 "..\..\MainWindow.xaml"
+        #line 30 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button three;
         
@@ -81,7 +81,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 38 "..\..\MainWindow.xaml"
+        #line 31 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button four;
         
@@ -89,7 +89,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 39 "..\..\MainWindow.xaml"
+        #line 32 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button five;
         
@@ -97,7 +97,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 40 "..\..\MainWindow.xaml"
+        #line 33 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button six;
         
@@ -105,7 +105,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 41 "..\..\MainWindow.xaml"
+        #line 34 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button seven;
         
@@ -113,7 +113,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 42 "..\..\MainWindow.xaml"
+        #line 35 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button eight;
         
@@ -121,7 +121,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 46 "..\..\MainWindow.xaml"
+        #line 39 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button button1;
         
@@ -129,7 +129,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 52 "..\..\MainWindow.xaml"
+        #line 45 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button button2;
         
@@ -137,7 +137,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 57 "..\..\MainWindow.xaml"
+        #line 50 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button button3;
         
@@ -145,7 +145,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 62 "..\..\MainWindow.xaml"
+        #line 55 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button button4;
         
@@ -153,7 +153,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 67 "..\..\MainWindow.xaml"
+        #line 60 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button button5;
         
@@ -161,7 +161,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 72 "..\..\MainWindow.xaml"
+        #line 65 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button button6;
         
@@ -169,7 +169,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 77 "..\..\MainWindow.xaml"
+        #line 70 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button button7;
         
@@ -177,7 +177,7 @@ namespace WpfApp1 {
         #line hidden
         
         
-        #line 82 "..\..\MainWindow.xaml"
+        #line 75 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button button8;
         
@@ -223,7 +223,7 @@ namespace WpfApp1 {
             case 3:
             this.one = ((System.Windows.Controls.Button)(target));
             
-            #line 35 "..\..\MainWindow.xaml"
+            #line 28 "..\..\MainWindow.xaml"
             this.one.Click += new System.Windows.RoutedEventHandler(this.one_Click);
             
             #line default
@@ -232,7 +232,7 @@ namespace WpfApp1 {
             case 4:
             this.two = ((System.Windows.Controls.Button)(target));
             
-            #line 36 "..\..\MainWindow.xaml"
+            #line 29 "..\..\MainWindow.xaml"
             this.two.Click += new System.Windows.RoutedEventHandler(this.two_Click);
             
             #line default
@@ -241,7 +241,7 @@ namespace WpfApp1 {
             case 5:
             this.three = ((System.Windows.Controls.Button)(target));
             
-            #line 37 "..\..\MainWindow.xaml"
+            #line 30 "..\..\MainWindow.xaml"
             this.three.Click += new System.Windows.RoutedEventHandler(this.three_Click);
             
             #line default
@@ -250,7 +250,7 @@ namespace WpfApp1 {
             case 6:
             this.four = ((System.Windows.Controls.Button)(target));
             
-            #line 38 "..\..\MainWindow.xaml"
+            #line 31 "..\..\MainWindow.xaml"
             this.four.Click += new System.Windows.RoutedEventHandler(this.four_Click);
             
             #line default
@@ -259,7 +259,7 @@ namespace WpfApp1 {
             case 7:
             this.five = ((System.Windows.Controls.Button)(target));
             
-            #line 39 "..\..\MainWindow.xaml"
+            #line 32 "..\..\MainWindow.xaml"
             this.five.Click += new System.Windows.RoutedEventHandler(this.five_Click);
             
             #line default
@@ -268,7 +268,7 @@ namespace WpfApp1 {
             case 8:
             this.six = ((System.Windows.Controls.Button)(target));
             
-            #line 40 "..\..\MainWindow.xaml"
+            #line 33 "..\..\MainWindow.xaml"
             this.six.Click += new System.Windows.RoutedEventHandler(this.six_Click);
             
             #line default
@@ -277,7 +277,7 @@ namespace WpfApp1 {
             case 9:
             this.seven = ((System.Windows.Controls.Button)(target));
             
-            #line 41 "..\..\MainWindow.xaml"
+            #line 34 "..\..\MainWindow.xaml"
             this.seven.Click += new System.Windows.RoutedEventHandler(this.seven_Click);
             
             #line default
@@ -286,7 +286,7 @@ namespace WpfApp1 {
             case 10:
             this.eight = ((System.Windows.Controls.Button)(target));
             
-            #line 42 "..\..\MainWindow.xaml"
+            #line 35 "..\..\MainWindow.xaml"
             this.eight.Click += new System.Windows.RoutedEventHandler(this.eight_Click);
             
             #line default
@@ -295,7 +295,7 @@ namespace WpfApp1 {
             case 11:
             this.button1 = ((System.Windows.Controls.Button)(target));
             
-            #line 46 "..\..\MainWindow.xaml"
+            #line 39 "..\..\MainWindow.xaml"
             this.button1.Click += new System.Windows.RoutedEventHandler(this.button1_Click);
             
             #line default
@@ -304,7 +304,7 @@ namespace WpfApp1 {
             case 12:
             this.button2 = ((System.Windows.Controls.Button)(target));
             
-            #line 52 "..\..\MainWindow.xaml"
+            #line 45 "..\..\MainWindow.xaml"
             this.button2.Click += new System.Windows.RoutedEventHandler(this.button2_Click);
             
             #line default
@@ -313,7 +313,7 @@ namespace WpfApp1 {
             case 13:
             this.button3 = ((System.Windows.Controls.Button)(target));
             
-            #line 57 "..\..\MainWindow.xaml"
+            #line 50 "..\..\MainWindow.xaml"
             this.button3.Click += new System.Windows.RoutedEventHandler(this.button3_Click);
             
             #line default
@@ -322,7 +322,7 @@ namespace WpfApp1 {
             case 14:
             this.button4 = ((System.Windows.Controls.Button)(target));
             
-            #line 62 "..\..\MainWindow.xaml"
+            #line 55 "..\..\MainWindow.xaml"
             this.button4.Click += new System.Windows.RoutedEventHandler(this.button4_Click);
             
             #line default
@@ -331,7 +331,7 @@ namespace WpfApp1 {
             case 15:
             this.button5 = ((System.Windows.Controls.Button)(target));
             
-            #line 67 "..\..\MainWindow.xaml"
+            #line 60 "..\..\MainWindow.xaml"
             this.button5.Click += new System.Windows.RoutedEventHandler(this.button5_Click);
             
             #line default
@@ -340,7 +340,7 @@ namespace WpfApp1 {
             case 16:
             this.button6 = ((System.Windows.Controls.Button)(target));
             
-            #line 72 "..\..\MainWindow.xaml"
+            #line 65 "..\..\MainWindow.xaml"
             this.button6.Click += new System.Windows.RoutedEventHandler(this.button6_Click);
             
             #line default
@@ -349,7 +349,7 @@ namespace WpfApp1 {
             case 17:
             this.button7 = ((System.Windows.Controls.Button)(target));
             
-            #line 77 "..\..\MainWindow.xaml"
+            #line 70 "..\..\MainWindow.xaml"
             this.button7.Click += new System.Windows.RoutedEventHandler(this.button7_Click);
             
             #line default
@@ -358,7 +358,7 @@ namespace WpfApp1 {
             case 18:
             this.button8 = ((System.Windows.Controls.Button)(target));
             
-            #line 82 "..\..\MainWindow.xaml"
+            #line 75 "..\..\MainWindow.xaml"
             this.button8.Click += new System.Windows.RoutedEventHandler(this.button8_Click);
             
             #line default

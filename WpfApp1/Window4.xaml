@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp1.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid Background="#f5dfbb">
+        <TextBlock Grid.Column="1" VerticalAlignment="Stretch" TextAlignment="Center" Background="#0e9594" Foreground="White" Margin="10">опасные зоны</TextBlock>
+        <Border x:Name="button" HorizontalAlignment="Left" Margin="10,10,0,9" Width="75" Background="#f5dfbb"  Grid.Column ="0" Grid.RowSpan="2">
+            <StackPanel>
+                <Button x:Name="one" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="навигация" Foreground="White" Click="one_Click"></Button>
+                <Button x:Name="two" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="СИЗ" Foreground="White" Click="two_Click"></Button>
+                <Button x:Name="three" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="поиск деталей" Foreground="White" Click="three_Click"></Button>
+                <Button x:Name="four" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="опасности" Foreground="White" Click="four_Click"></Button>
+                <Button x:Name="five" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="сортировка" Foreground="White" Click="five_Click"></Button>
+                <Button x:Name="six" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="фильтрация" Foreground="White" Click="six_Click"></Button>
+                <Button x:Name="seven" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="контроль" Foreground="White" Click="seven_Click"></Button>
+                <Button x:Name="eight" Margin="5,3,5,3" Height="45" Background="#562c2c" Content="инструкция" Foreground="White" Click="eight_Click"></Button>
+            </StackPanel>
+        </Border>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="97*"/>
+            <ColumnDefinition Width="695*"/>
+
+        </Grid.ColumnDefinitions>
+
+    </Grid>
+</Window>

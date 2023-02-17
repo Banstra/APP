@@ -55,6 +55,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window2.xaml.cs">
+      <DependentUpon>Window2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window3.xaml.cs">
+      <DependentUpon>Window3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window4.xaml.cs">
+      <DependentUpon>Window4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window5.xaml.cs">
+      <DependentUpon>Window5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window6.xaml.cs">
+      <DependentUpon>Window6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window7.xaml.cs">
+      <DependentUpon>Window7.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +88,34 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -93,6 +142,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="2023-01-20_11-15-57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gps_navigation_pin_search_find_location_locate_icon-icons.com_59900.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ppe_mask_medical_health_icon_208484.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="searchmagnifierinterfacesymbol1_79893.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="3792021-halloween-horror-skeleton-skull_109032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="filter-tool-black-shape_icon-icons.com_73566.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="color_pallet_icon_125322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="4124869-badge-insignia-premium-badge-quality-star-badge_114113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="barcode_scanner_4249.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="2023-01-20_11-35-57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="maps.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="map.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
